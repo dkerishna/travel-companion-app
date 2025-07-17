@@ -6,7 +6,7 @@ import {
   onAuthStateChanged,
   updateProfile
 } from 'firebase/auth';
-import { auth } from '../firebase';
+import { auth } from '../../firebase';
 import { createUser } from '../services/api';
 
 const AuthContext = createContext();
